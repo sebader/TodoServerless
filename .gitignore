@@ -3,3 +3,4 @@ bin
 obj
 *.user
 /api/Properties/PublishProfiles
+/apiFunctions/Properties/PublishProfiles

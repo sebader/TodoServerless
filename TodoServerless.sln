@@ -24,7 +24,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ui", "ui\", "{49758ED4-DBD3
 		SlnRelativePath = "ui\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{425F342C-5770-4B9F-AC1A-E9432327E1C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiFunctions", "apiFunctions\apiFunctions.csproj", "{A321B3F7-F120-45DC-B3B7-48D1ACF78AD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,10 +36,10 @@ Global
 		{49758ED4-DBD3-43BC-9D7A-03F6A6E39C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49758ED4-DBD3-43BC-9D7A-03F6A6E39C9F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{49758ED4-DBD3-43BC-9D7A-03F6A6E39C9F}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{425F342C-5770-4B9F-AC1A-E9432327E1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{425F342C-5770-4B9F-AC1A-E9432327E1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{425F342C-5770-4B9F-AC1A-E9432327E1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{425F342C-5770-4B9F-AC1A-E9432327E1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A321B3F7-F120-45DC-B3B7-48D1ACF78AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A321B3F7-F120-45DC-B3B7-48D1ACF78AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A321B3F7-F120-45DC-B3B7-48D1ACF78AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A321B3F7-F120-45DC-B3B7-48D1ACF78AD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

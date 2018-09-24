@@ -15,8 +15,8 @@
 			apiUrl,
 			null,
 			function (data) {
-				docViewModel.documents = ko.observableArray(data.Items);
-				docViewModel.currentUser(data.UserName);
+				docViewModel.documents = ko.observableArray(data.items);
+				docViewModel.currentUser(data.userName);
 				ko.applyBindings(docViewModel);
 			});
 	}
@@ -44,7 +44,7 @@
 		AddEdit: function() {
 			var newTodo = prompt("Enter new todo item:");
 			if (newTodo) {
-				var newTodoItem = { ItemName: newTodo }
+                var newTodoItem = { itemName: newTodo };
 				AZ.Ajax.MakeAjaxCall("POST",
 					apiUrl,
 					JSON.stringify(newTodoItem),
@@ -55,7 +55,7 @@
 		},
 
 		Remove: function(item) {
-			if (confirm("Mark item '" + item.ItemName + "' as completed?")) {
+            if (confirm("Mark item '" + item.itemName + "' as completed?")) {
 				AZ.Ajax.MakeAjaxCall("DELETE",
 					apiUrl + "/" + item.id,
 					null,
