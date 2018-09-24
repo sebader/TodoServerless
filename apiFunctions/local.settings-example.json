@@ -1,0 +1,13 @@
+{
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  },
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "CosmosDBConnectionString": "<YOUR_DEVELOPMENT_COSMOSDB_ENDPOINT>"
+  }
+}
