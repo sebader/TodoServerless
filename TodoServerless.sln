@@ -24,7 +24,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ui", "ui\", "{49758ED4-DBD3
 		SlnRelativePath = "ui\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiFunctions", "apiFunctions\apiFunctions.csproj", "{A321B3F7-F120-45DC-B3B7-48D1ACF78AD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{A321B3F7-F120-45DC-B3B7-48D1ACF78AD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
