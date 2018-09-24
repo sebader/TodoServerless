@@ -8,7 +8,7 @@
           "GET"
         ]
       },
-      "backendUri": "https://<YOUR_STORAGE_URL>/index.html"
+      "backendUri": "https://<YOUR_STORAGE_URL>/<YOUR_CONTAINER_NAME>/index.html"
     },
     "jsproxy": {
       "matchCondition": {
@@ -17,7 +17,7 @@
           "GET"
         ]
       },
-      "backendUri": "https://<YOUR_STORAGE_URL>/js/{restOfPath}"
+      "backendUri": "https://<YOUR_STORAGE_URL>/<YOUR_CONTAINER_NAME>/js/{restOfPath}"
     }
   }
 }
